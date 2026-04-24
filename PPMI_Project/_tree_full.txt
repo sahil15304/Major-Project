@@ -1,0 +1,99 @@
+Folder PATH listing for volume DATA
+Volume serial number is 2C90-0FD0
+D:\PPMI_PROJECT
+|   _tree_full.txt
+|   
++---data_processed
+|       clinical_clean.csv
+|       clinical_longitudinal.csv
+|       clinical_with_severity.csv
+|       clinical_with_severity_horizons.csv
+|       
++---data_raw
+|   \---clinical
+|           Demographics.csv
+|           MoCA.csv
+|           Participant_Status.csv
+|           UPDRS_PartI.csv
+|           UPDRS_PartII.csv
+|           UPDRS_PartIII.csv
+|           Visit_Type.csv
+|           
++---eval
+|       eval_summary.csv
+|       severity_12m_features.json
+|       severity_12m_folds.csv
+|       severity_12m_predictions.csv
+|       severity_24m_features.json
+|       severity_24m_folds.csv
+|       severity_24m_predictions.csv
+|       severity_6m_features.json
+|       severity_6m_folds.csv
+|       severity_6m_predictions.csv
+|       SEV_12M_calibration.png
+|       SEV_12M_parity.png
+|       SEV_12M_residuals.png
+|       SEV_24M_calibration.png
+|       SEV_24M_parity.png
+|       SEV_24M_residuals.png
+|       SEV_6M_calibration.png
+|       SEV_6M_parity.png
+|       SEV_6M_residuals.png
+|       
++---interpretability
+|       shap_severity_12m_bar.png
+|       shap_severity_12m_beeswarm.png
+|       shap_severity_12m_top15.csv
+|       shap_severity_24m_bar.png
+|       shap_severity_24m_beeswarm.png
+|       shap_severity_24m_top15.csv
+|       shap_severity_6m_bar.png
+|       shap_severity_6m_beeswarm.png
+|       shap_severity_6m_top15.csv
+|       
++---models
+|       requirements_freeze.txt
+|       severity_12m.json
+|       severity_12m.modelcard.json
+|       severity_12m.pkl
+|       severity_24m.json
+|       severity_24m.modelcard.json
+|       severity_24m.pkl
+|       severity_6m.json
+|       severity_6m.modelcard.json
+|       severity_6m.pkl
+|       xgb_sev_12m.joblib
+|       xgb_sev_24m.joblib
+|       xgb_sev_6m.joblib
+|       
++---notebooks
+|       01_clinical_preprocessing.ipynb
+|       02_xgboost_baseline.ipynb
+|       03_build_severity.ipynb
+|       04_regression_severity.ipynb
+|       
++---predictions
+|       pred_sev_12m.csv
+|       pred_sev_24m.csv
+|       pred_sev_6m.csv
+|       
++---reports
+|   |   shap_baseline_nextvisit_bar.png
+|   |   shap_baseline_nextvisit_beeswarm.png
+|   |   shap_severity_12m_bar.png
+|   |   shap_severity_12m_beeswarm.png
+|   |   shap_severity_12m_top15.csv
+|   |   shap_severity_24m_bar.png
+|   |   shap_severity_24m_beeswarm.png
+|   |   shap_severity_24m_top15.csv
+|   |   shap_severity_6m_bar.png
+|   |   shap_severity_6m_beeswarm.png
+|   |   shap_severity_6m_top15.csv
+|   |   shap_top15_all_horizons.csv
+|   |   
+|   \---metrics
+|           severity_12m_metrics.json
+|           severity_24m_metrics.json
+|           severity_6m_metrics.json
+|           
+\---results
