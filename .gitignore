@@ -1,0 +1,6 @@
+data_raw/
+data_processed/
+models/
+*.csv
+*.pkl
+*.joblib
