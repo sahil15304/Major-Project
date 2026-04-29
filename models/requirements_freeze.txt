@@ -1,0 +1,7 @@
+xgboost==1.7.6
+scikit-learn
+pandas
+numpy
+joblib
+matplotlib
+shap

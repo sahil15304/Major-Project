@@ -1,0 +1,11 @@
+{
+  "features": [
+    "AGE",
+    "SEX",
+    "NP1TOT",
+    "NP2TOT",
+    "NP3TOT",
+    "MCATOT",
+    "SEVERITY"
+  ]
+}

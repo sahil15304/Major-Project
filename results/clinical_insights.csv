@@ -1,0 +1,4 @@
+﻿Horizon,Top_Features,Clinical_Insight
+6M,"NP2TOT, SEVERITY, NP3TOT, MCATOT",Short-term progression is primarily influenced by motor symptom burden and baseline disease severity.
+12M,"NP2TOT, NP3TOT, NP1TOT, SEVERITY, MCATOT","Mid-term progression reflects combined motor and cognitive influences, indicating increasing disease complexity."
+24M,"NP2TOT, NP3TOT, NP1TOT, AGE, MCATOT",Long-term progression relies more on stable patient characteristics such as age and baseline motor impairment.
